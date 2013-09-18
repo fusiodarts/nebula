@@ -1,0 +1,11 @@
+[lite]
+DBA/db=PostgreSQL
+DBA/hostname=/var/run/postgresql
+DBA/lastDB=base_datos
+DBA/namesDB=base_datos
+DBA/password=nopasswd
+DBA/port=5432
+DBA/username=nebula
+application/autoLogin=true
+DBA/rememberPasswd=true
+

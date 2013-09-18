@@ -1,0 +1,84 @@
+.webclient{
+    position:absolute;
+    padding:0px; margin:0px;
+    left:0px; top:0px;
+    background: #ffffff url(:images/main-bg.gif);
+}
+.dock {
+	position: absolute;
+	padding:0px; margin:0px;
+    background: url(:images/dock-bg.gif);  
+}
+.dockContainer {
+    position: absolute;
+    padding:0px; margin:0px;
+	width: 100%;
+}
+.dockItem {
+	display: block;
+	color: #000;
+	position: absolute;
+	text-align: center;
+	text-decoration: none;
+	font: bold 12px Arial, Helvetica, sans-serif;
+	border: none;
+	padding:0px; margin:0px;
+}
+.divContainer {
+    position:absolute;
+    padding:0px; margin:0px;
+}
+.divWidget {
+    position:absolute;
+    padding:0px; margin:0px;
+}
+.divFrameButton {
+    position:absolute;
+    padding:0px; margin:0px;
+    background: #ffffff;
+    opacity: 0.0;
+    filter: alpha(opacity = 1);
+}
+.divCaption {
+    font-family: sans-serif;
+	font-weight: bolder;
+	color: #ffffff;
+	position: absolute;
+	cursor: default;
+	overflow: hidden;
+}
+.divUploader {
+	font-family: sans-serif; 
+	background-color: #393d41;
+	color: #ffffff; 
+	border-color: #202020; 
+	border-style: solid; 
+	border-width: 2px; 
+	font-size: 12px; 
+	height: 170px; 
+	margin: 0px; 
+	padding: 0px;
+	position: absolute; 
+	width: 350px;
+}
+.divUploaderTitle {
+	font-weight: bolder;
+	background-color: #202020;
+	color: #ffffff;
+	height: 22px;
+	margin: 2px;
+	padding: 0px;
+	position: absolute;
+	width: 346; 
+}
+.imgIcon {
+	position: absolute;
+	width: 16px;
+	height: 16px;
+}
+.imgIndicator {
+	visibility:hidden;
+	position:relative;
+	top:50%;
+	left:50%;
+}

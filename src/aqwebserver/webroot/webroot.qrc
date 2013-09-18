@@ -1,0 +1,15 @@
+<RCC>
+    <qresource prefix="/">
+        <file>index.html</file>
+        <file>webclient.css</file>
+        <file>favicon.ico</file>
+		<file>nebula_lib.js</file>
+		<file>nebula.js</file>
+		<file>images/indicator.gif</file>
+		<file>images/main-bg.gif</file>
+		<file>images/dock-bg.gif</file>
+		<file>images/default.png</file>
+		<file>images/restore.png</file>
+		<file>images/miniature.png</file>
+    </qresource>
+</RCC>

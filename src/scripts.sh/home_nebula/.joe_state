@@ -1,0 +1,112 @@
+# JOE state file v1.0
+search
+	pattern "flxcache"
+	backwards 0
+	ignore 1
+	replace 0
+	block_restrict 0
+done
+macros
+done
+files
+	"boot.sh\n"
+	"boot.sh\n"
+	"exec_nebula_usr.sh\n"
+	"nebula.com\n"
+	"boot.sh\n"
+	"boot.sh\n"
+	"active_users\n"
+	"make_nebula_usr.sh\n"
+	"make_nebula_usr.sh\n"
+	"make_nebula_usr.sh\n"
+done
+find
+	"flxcache\n"
+done
+replace
+done
+run
+done
+build
+done
+grep
+done
+cmd
+done
+math
+done
+yank
+	"SKEL"
+	"Skel"
+	"IN"
+	"\""
+	"ABA"
+	"opt/"
+	"/opt/Nebula"
+	"chroot $CHROOT_DIR\numount $CHROOT_DIR/dev\numount $CHROOT_DIR/proc\n"
+	"\nDEV"
+	"D"
+	"ALREADY_"
+	"SI"
+	"\n	"
+	"	"
+	"dev"
+	";"
+	"	"
+	"	"
+	"exit 0"
+	"1"
+	"exit"
+	"no"
+	"yes"
+	"O"
+	"t"
+	" "
+	"mount --bind /dev $CHROOT_DIR/dev\nmount -t proc none $CHROOT_DIR/proc\n"
+	";\n"
+	"("
+	"	"
+	"echo $NEW_MOUNT\nexit 0\n"
+	"\nexpop"
+	"y"
+	"\nexport "
+	"\nif [ \"$NEW_MOUNT\" == \"yes\" ]\nthen\n	umount $CHROOT_DIR/dev\n	umount $CHROOT_DIR/proc\nfi\n"
+	"\""
+	"\""
+	"Boot"
+	"	"
+	":1"
+	"1"
+	"1"
+	"export DISPLAY=:88\n\n"
+	"NEW_MOUNT=$($BOOT_DIR/mount_proc_dev.sh)\n"
+	"$"
+	" /home/nebula/Sc"
+	"CHROOT_DIR"
+	"NEW_MOUNT=$($BOOT_DIR/mount_proc_dev.sh)\n"
+	"\nexport DISPLAY=:88\n\n"
+	"$BIN_DIR"
+	"$BIN_DIR"
+	"BIN_DIR=/home/nebula/Bin\n\n"
+	"88"
+	"1"
+	"c"
+	"ER"
+	"mkdir $HOME_USR/.flxcache\n\n"
+	"\n"
+done
+file_pos
+	0 ".bash_profile"
+	0 ".profile"
+	11 "facturaluxrc"
+	0 ".qt/facturaluxrc"
+	41 "profile"
+	20 "rc.local"
+	13 "login_chroot.sh"
+	18 "mount_proc_dev.sh"
+	19 "exec_nebula_usr.sh"
+	1 "nebula.com"
+	2 "boot.sh"
+	3 "active_users"
+	41 "make_nebula_usr.sh"
+done

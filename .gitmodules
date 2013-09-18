@@ -1,0 +1,6 @@
+[submodule "src/gui_apps/lite"]
+	path = src/gui_apps/lite
+	url = https://github.com/gestiweb/eneboo.git
+[submodule "src/gui_apps/user25"]
+	path = src/gui_apps/user25
+	url = https://github.com/gestiweb/eneboo.git
